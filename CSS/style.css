@@ -7,9 +7,12 @@
 
 .ExperienceContainer{
 background-color: lightgray;
+height: 400px;
 
 }
 
 .planContainer{
 
+    height: 400px;
+    background-color: darkgrey;
 }
