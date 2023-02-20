@@ -6,7 +6,19 @@ body{
 
 .jumbotron{
     margin: 0;
+    background-image: url("../Images/erik-karits-loMFq95TM8Q-unsplash.jpg");
+    background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.jumboCopy {
+   
+    color: white; 
+    text-align: center !important;
+  }
 
 h1{
     margin-top: 10px;
