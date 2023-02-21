@@ -26,7 +26,6 @@ body{
 
 
 
-
 .jumbotron{
     margin: 0;
     background-size: cover;
@@ -155,3 +154,35 @@ h2{
     
 }
 
+footer{
+    height: 1300px;
+    
+}
+
+.footerTextLeft{
+    width: 300px;
+}
+
+.footerTextRight{
+    width: 500px;
+}
+
+
+.footerContainer{
+   display: flex;
+   flex-direction: row;
+   color: #3F205E;
+    margin:0;
+    gap: 50px;
+    
+    position: relative;
+    top:50%;
+    justify-content: center;
+    
+   
+   
+}
+
+.footerImage{
+    width:100%;
+}
