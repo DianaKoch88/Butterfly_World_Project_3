@@ -1,19 +1,33 @@
 
 
 body{
-    font-family: 'Raleway'
+    font-family: 'Raleway';
+    background: linear-gradient(180deg, #B1D2FB 0%, #E0F3FF 100%);
+}
+
+.bg-light{
+    background: linear-gradient(180deg, #B1D2FB 0%, #D0E9FF 100%);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:#4F2876;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color:#4F2876;
 }
 
 .jumbotron{
     margin: 0;
     background-image: url("../Images/erik-karits-loMFq95TM8Q-unsplash.jpg");
     background-size: cover;
-  background-repeat: no-repeat;
-  height: calc(100vh - 25px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+ 
 .jumboCopy {
    
     color: white; 
@@ -25,11 +39,12 @@ h1{
     text-align: center;
     font-weight: 700;
     font-size: 48px;
+    color: #EDD597;
 }
 
 .introContainer{
 
-    height: 800px;
+    height: 1000px;
     background-color: grey;
 }
 
@@ -37,7 +52,7 @@ h1{
 .ExperienceContainer{
     display: flex;
     background-color: lightgray;
-    height: 400px;
+    height: 500px;
     flex-direction: row;
     margin: 0 auto;
 
@@ -46,7 +61,7 @@ h1{
 
 .leftSideText{
     
-    color: black;
+    color: white;
     font-weight: 400; 
     font-size: 32px;
     text-align: center;
@@ -59,23 +74,36 @@ h1{
 .leftSide{
 
     width: 50%;
+    
+}
+
+.ExperienceContainer .leftSide{
+    background: #4F2876;
 }
 
 .rightSide{
 
     width: 50%;
-    background-color: darkgray;
+    
     
 }
 
+.planContainer .rightSide{
+
+    background: linear-gradient(180deg, #B1D2FB 39.58%, #D2EBFF 100%);
+    
+    
+}
+
+
 .picPlaceholder{
     width:100%;
-    height: 400px;
+    height: 500px;
 }
 
 .planContainer{
     display: flex;
-    height: 400px;
+    height: 500px;
     background-color: darkgrey;
     flex-direction: row-reverse;
 }
@@ -85,11 +113,12 @@ h2{
     text-align: center;
     font-weight: 700;
     font-size: 48px;
+    color: #3F205E;
 }
 
 .rightSideText{
     
-    color: black;
+    color: #3F205E;
     font-weight: 400; 
     font-size: 32px;
     text-align: center;
