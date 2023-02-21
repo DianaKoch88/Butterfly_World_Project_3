@@ -17,9 +17,19 @@ body{
     color:#4F2876;
 }
 
+.cartandText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
 .jumbotron{
     margin: 0;
-    background-image: url("../Images/erik-karits-loMFq95TM8Q-unsplash.jpg");
+    background-image: url("../images/hero1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
