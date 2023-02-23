@@ -174,8 +174,13 @@ h2{
 }
 
 .locationContainer{
+    display: flex;
+    flex-direction: row;
     height: 600px;
     background: linear-gradient(180deg, #7E53A8 39.58%, #9771BD 100%);
+}
+.locationImage{
+    width:60%;
 }
 
 h6{
@@ -185,12 +190,15 @@ h6{
 
 .locationText{
     padding-top: 50px;
-    width: 30%;
+    width: 40%;
     color: white;
     font-size: 40px;
 }
 
-
+.card-img-top{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
 
 footer{
     height: 1125px;
