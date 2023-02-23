@@ -101,7 +101,7 @@ h1{
 
 
 .ExperienceContainer .leftSide{
-    background: #4F2876;
+    background: linear-gradient(180deg, #7E53A8 39.58%, #9771BD 100%);
 }
 
 .rightSide{
@@ -154,6 +154,25 @@ h2{
     
 }
 
+.locationContainer{
+    height: 600px;
+    background: linear-gradient(180deg, #7E53A8 39.58%, #9771BD 100%);
+}
+
+h6{
+    color: #EDD597;
+    font-size: 60px;
+}
+
+.locationText{
+    padding-top: 50px;
+    width: 30%;
+    color: white;
+    font-size: 40px;
+}
+
+
+
 footer{
     height: 1125px;
     font-weight: 600;
@@ -164,8 +183,18 @@ footer{
 }
 
 .footerTextLeft{
+    display: flex;
+    flex-direction: column;
     width: 300px;
+
+
 }
+
+.socialMediaGroup{
+
+    padding-top: 30px;
+}
+
 
 .footerTextRight{
     width: 500px;
@@ -177,6 +206,7 @@ footer{
     flex-direction: row;
     color: #3F205E;
     margin:0;
+    margin-top: 20px;
     gap: 350px;
     position: relative;
     top: -100%;
@@ -197,7 +227,7 @@ h3{
     font-weight: 700;
 }
 
-.logoandSocialMedia{
+.logoFooter{
     display: flex;
     flex-direction: column;
     gap: 50px;
