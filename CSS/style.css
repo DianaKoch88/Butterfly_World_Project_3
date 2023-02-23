@@ -101,7 +101,7 @@ h1{
 
 
 .ExperienceContainer .leftSide{
-    background: #4F2876;
+    background: linear-gradient(180deg, #7E53A8 39.58%, #9771BD 100%);
 }
 
 .rightSide{
@@ -153,6 +153,25 @@ h2{
     color: #3F205E;
     
 }
+
+.locationContainer{
+    height: 600px;
+    background: linear-gradient(180deg, #7E53A8 39.58%, #9771BD 100%);
+}
+
+h6{
+    color: #EDD597;
+    font-size: 60px;
+}
+
+.locationText{
+    padding-top: 50px;
+    width: 30%;
+    color: white;
+    font-size: 40px;
+}
+
+
 
 footer{
     height: 1125px;
