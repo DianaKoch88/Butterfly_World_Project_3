@@ -383,5 +383,5 @@ h3{
     height: calc(100vh - 25px);
     display: flex;
     align-items: center;
-    /*justify-content: center;*/
+    justify-content: center;
 }
