@@ -29,7 +29,7 @@ body{
 .jumbotron{
     margin: 0;
     background-size: cover;
-    background-image: url("../images/hero1.jpg");
+    background-image: url("../Images/What\ is\ Butterfly\ World.png");
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
     display: flex;
