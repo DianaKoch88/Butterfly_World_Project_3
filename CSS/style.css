@@ -151,6 +151,7 @@ h1{
     flex-direction: row;
     justify-content: center;
     gap: 250px;
+    background-color: white;
 }
 
 .card{
@@ -160,9 +161,35 @@ h1{
     text-align: center;
     width: 350px;
     height: 550px;
+    font-family: 'Barlow';
+    color:black;
+    font-size: 24px;
 }
 
 
+.card-title1{
+    font-size: 36px;
+    color: #85B7EF;
+    font-weight: 700;
+    font-family: 'Raleway';
+}
+.card-title2{
+    font-size: 36px;
+    font-weight: 700;
+    color:#4F2876;
+    font-family: 'Raleway';
+}
+.card-title3{
+    font-size: 36px;
+    color: #52BDD9;
+    font-weight: 700;
+    font-family: 'Raleway';
+}
+
+.card .btn-primary{
+
+    margin-top: 20px;
+}
 
 h2{
     margin-top: 30px;
