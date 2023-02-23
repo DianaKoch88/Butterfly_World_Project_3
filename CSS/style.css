@@ -195,7 +195,10 @@ h6{
     font-size: 40px;
 }
 
-
+.card-img-top{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
 
 footer{
     height: 1125px;
