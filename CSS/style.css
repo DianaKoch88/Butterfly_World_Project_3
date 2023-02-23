@@ -164,8 +164,18 @@ footer{
 }
 
 .footerTextLeft{
+    display: flex;
+    flex-direction: column;
     width: 300px;
+
+
 }
+
+.socialMediaGroup{
+
+    padding-top: 30px;
+}
+
 
 .footerTextRight{
     width: 500px;
@@ -177,6 +187,7 @@ footer{
     flex-direction: row;
     color: #3F205E;
     margin:0;
+    margin-top: 20px;
     gap: 350px;
     position: relative;
     top: -100%;
@@ -197,7 +208,7 @@ h3{
     font-weight: 700;
 }
 
-.logoandSocialMedia{
+.logoFooter{
     display: flex;
     flex-direction: column;
     gap: 50px;
