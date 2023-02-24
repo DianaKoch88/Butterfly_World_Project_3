@@ -129,6 +129,8 @@ h1{
     
 }
 
+
+
 .rightSideText{
     
     color: #3F205E;
@@ -415,4 +417,11 @@ h3{
     height:1000px;
     display: flex;
     flex-direction: row;
+}
+
+.cartContainer li{
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+
 }
