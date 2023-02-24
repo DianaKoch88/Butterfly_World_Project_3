@@ -384,7 +384,7 @@ h3{
 
 /* START OF ADD TO CART CSS */
 
-.jumbotronCart{
+.heroContainer{
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -392,6 +392,8 @@ h3{
     justify-content: center;
     height: 700px;
     width:100%;
+    gap:0;
+    padding:0;
 }
 
 .addtoCartHero{
