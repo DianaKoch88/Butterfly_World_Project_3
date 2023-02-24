@@ -476,7 +476,15 @@ h3{
 /*END CART CSS */
 
 /*START BILLING CSS */
+.billing{
+    background-color: white;
+    margin: 0;
+    
+}
 
+.creditCard{
+    background-color: white;
+}
 
 
 
