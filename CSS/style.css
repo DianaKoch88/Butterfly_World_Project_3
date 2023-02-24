@@ -491,3 +491,34 @@ h3{
 /*END BILLING CSS */
 
 /*START CONFIRMATION CSS */
+
+.confirmation{
+    background-color: white;
+
+}
+
+.suggestedReads{
+    background-color: white;
+    margin: 0;
+}
+
+.readCards{
+    background-color: white;
+}
+.cardEnd{
+    background-color: white;
+}
+
+.largerMap{
+    background-color: white;
+}
+
+
+
+/* MEDIA QUEARY*/
+
+@media only screen and (max-width: 600px){
+    .flexcontainer{
+        display: column;
+    }
+}
