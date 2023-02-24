@@ -362,12 +362,20 @@ h3{
 /* END OF HOMEPAGE CSS*/
 
 /* START OF ADMISSIONS PAGE CSS */
+.header{
+    background-color: white;
+    color: #3F205E;
+}
 
 .admissionsContainer{
     height: 100px;
 }
 
-
+.weatherContainer{
+    width: 80%;
+    padding: 15px;
+    margin-left: 150px;
+}
 
 
 /* END ADMISSIONS CSS */
