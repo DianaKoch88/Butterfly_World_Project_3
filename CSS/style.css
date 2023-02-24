@@ -407,25 +407,30 @@ h3{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 64px;
     color:white;
     position: relative;
-    top: -80px;
+    top: -100px;
 }
 
 .cartContainer{
-    height:1000px;
+    height:600px;
     display: flex;
     flex-direction: row;
 }
 
 .cartContainer li{
-    font-size: 36px;
+    font-size: 28px;
+    padding-top: 20px;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 80px;
+    width: 500px;
 
 }
 
+<<<<<<< Updated upstream
 /*END ADD TO CART CSS */
 
 /* START CART CSS */
@@ -443,3 +448,30 @@ h3{
     display: flex;
     justify-content: center;
 }
+=======
+.cartContainer .leftSide{
+    display: flex;
+    align-items: center;
+    
+}
+.dayPassImage{
+    height:600px;
+    width:600px;
+    position: relative;
+    left: 150px;
+}
+
+.bodyContainer{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.informationContainer ul{
+    position: relative ;
+    left: 550px;
+    font-size: 40px;
+    
+}
+>>>>>>> Stashed changes
