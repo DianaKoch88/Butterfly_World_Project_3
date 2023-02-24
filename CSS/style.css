@@ -365,6 +365,7 @@ h3{
 .header{
     background-color: white;
     color: #3F205E;
+    margin: 0;
 }
 
 .admissionsContainer{
