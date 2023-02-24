@@ -386,11 +386,31 @@ h3{
 
 .jumbotronCart{
     margin: 0;
-    background-size: cover;
-    background-image: url("../Images/admissions\ pricing\ hero.png");
-    background-repeat: no-repeat;
-    height: calc(100vh - 25px);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 700px;
+    width:100%;
+}
+
+.addtoCartHero{
+    width:100%;
+    margin:0;
+}
+
+.headerText{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color:white;
+    position: relative;
+    top: -80px;
+}
+
+.cartContainer{
+    height:1000px;
+    display: flex;
+    flex-direction: row;
 }
