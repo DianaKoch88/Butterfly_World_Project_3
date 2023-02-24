@@ -425,3 +425,21 @@ h3{
     align-items: center;
 
 }
+
+/*END ADD TO CART CSS */
+
+/* START CART CSS */
+
+.myCart{
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.addtoCart{
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
