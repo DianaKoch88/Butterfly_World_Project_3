@@ -537,14 +537,26 @@ h3{
 
 }
 
+
+.informationContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:80px;
+}
+
 .informationContainer ul{
-    position: relative ;
-    left: 550px;
+    margin:0;
     font-size: 40px;
-    
+}
+
+.informationContainer li{
+    padding-bottom: 60px;
 }
 
 .cartButton{
+    display: flex;
+    justify-content: center;
     padding: 50px;
 }
 
