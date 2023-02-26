@@ -110,7 +110,7 @@
 
 <div class="billing">
 
-<h3>Billing Information</h3>
+<h3 class="billingInfo">Billing Information</h3>
 
 <form>
     <div class="form-row">
@@ -155,13 +155,17 @@
 
   <div class="creditCard">
 
-  <h3>Credit Card Information</h3>
+  <h3 class="ccInfo">Credit Card Information</h3>
+
+  <div class="creditIcons">
 
   <img src="Images/ri_visa-fill.png">
   <img src="Images/fa-brands_cc-mastercard.png">
   <img src="Images/teenyicons_paypal-outline.png">
   <img src="Images/cib_amazon-pay.png">
   <img src="Images/logos_apple-pay.png">
+
+</div>
 
   <form>
     
@@ -173,22 +177,27 @@
       <label for="inputAddress2">CardholderName</label>
       <input type="text" class="form-control" id="inputAddress2" placeholder="Name">
     </div>
-    
-    <div class="form-group col-md-2">
+<div class="form-row">
+    <div class="form-group col-md-6">
         <label for="inputZip">Expiration Date</label>
-        <input type="text" class="form-control" id="inputZip">
+        <input type="text" class="form-control" id="inputZip" placeholder="**/**/****">
       </div>
-    </div>
+    
 
-      <div class="form-group col-md-2">
+    <div class="form-group col-md-6">
         <label for="inputZip">CVV</label>
-        <input type="text" class="form-control" id="inputZip">
+        <input type="text" class="form-control" id="inputCVV" placeholder="***">
       </div>
     </div>
+</div>
     
   </form>
 
+  <div class="purchaseButton">
+
   <a class="btn btn-primary btn-lg" href="confirmation.html" role="button">Purchase</a>
+
+</div>
 
 
 </div>

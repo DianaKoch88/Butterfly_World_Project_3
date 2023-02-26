@@ -479,19 +479,47 @@ h3{
     
 }
 
+.cartButton{
+    padding: 50px;
+}
+
 /*END CART CSS */
 
 /*START BILLING CSS */
 .billing{
     background-color: white;
     margin: 0;
+    padding: 80px;
     
 }
 
-.creditCard{
-    background-color: white;
+.billingInfo{
+    text-align: center;
+    padding-bottom: 50px;
 }
 
+
+
+.creditCard{
+    background-color: white;
+    padding: 80px;
+    
+}
+
+.ccInfo{
+    text-align: center;
+}
+
+.creditIcons{
+    text-align: center;
+    padding: 20px;
+}
+
+.purchaseButton{
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
 
 
 /*END BILLING CSS */
