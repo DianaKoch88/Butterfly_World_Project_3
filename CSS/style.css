@@ -37,9 +37,9 @@ body{
     height:50px!important;
 }
 
-
-
-
+.w-100{
+    height:700px!important;
+}
 
 .jumbotron{
     margin: 0;
@@ -60,6 +60,30 @@ h1{
     font-size: 60px;
     color: #EDD597;
 }
+
+.btn-secondary{
+    background-color: #1C1E31;
+    border-color:#1C1E31;
+    height:75px;
+    width:350px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.btn-secondary:hover{
+    background: #EDD597;
+    color: black;
+    border-color: #EDD597;
+}
+
+
+.buttonHolder{
+    display: flex;
+    justify-content: right;
+}
+
+
+
 
 .introContainer{
 
@@ -108,12 +132,14 @@ h1{
     width:180px;
     font-weight: 700;
     font-family: 'Barlow';
+    border-color: #52BDD9;
     
 }
 
 .btn-primary:hover{
     background: #EDD597;
     color: black;
+    border-color: #EDD597;
 }
 
 
@@ -211,18 +237,22 @@ h1{
 
 #cardButton1{
     background: #85B7EF!important;
+    border-color: #85B7EF!important;
 }
 
 #cardButton1:hover{
     background: #EDD597!important;
+    border-color: #EDD597!important;
 }
 
 #cardButton2{
     background: #66448B;
+    border-color: #66448B!important;
 }
 
 #cardButton2:hover{
     background: #EDD597!important;
+    border-color: #EDD597!important;
 }
 
 
@@ -263,12 +293,14 @@ h2{
 .galleryButton .btn-primary{
     margin:0;
     background: #66448B;
+    border-color: #66448B;
 }
 
 
 
 .galleryButton .btn-primary:hover{
     background: #EDD597;
+    border-color: #EDD597;
 
 }
 
@@ -280,6 +312,13 @@ h2{
     height: 600px;
     background: linear-gradient(180deg, #7E53A8 39.58%, #9771BD 100%);
 }
+
+.locationText{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
 .locationImage{
     width:60%;
 }
