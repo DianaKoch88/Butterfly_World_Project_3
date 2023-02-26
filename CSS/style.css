@@ -142,6 +142,29 @@ h1{
     margin-right: 200px;
 }
 
+
+.experienceFly{
+    display:flex;
+    position: relative;
+    left:700px;
+    bottom: 150px;
+    height:200px;
+    width:200px;
+    
+}
+
+.experienceFly2{
+    display:flex;
+    position: relative;
+    left:20px;
+    bottom: 650px;
+    height:200px;
+    width:200px;
+    
+}
+
+
+
 .btn-primary{
     margin-top: 40px;
     align-self: center;
