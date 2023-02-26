@@ -17,11 +17,29 @@ body{
     color:#4F2876;
 }
 
+.navbar-expand-lg .navbar-collapse{
+    
+    display: flex!important;
+    align-content: center!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    justify-content: center!important;
+    flex-wrap: wrap;
+    font-size: 24px;
+    color:#4F2876;
+
+}
+
+.mr-auto, .mx-auto{
+    margin: 0 !important;;
+}
+
 .cartandText{
     display: flex;
     align-items: center;
     flex-direction: row;
     text-align: center;
+    
 }
 
 .carousel-control-next-icon{
