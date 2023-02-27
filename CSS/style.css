@@ -30,6 +30,7 @@ body{
 
 }
 
+
 .mr-auto, .mx-auto{
     margin: 0 !important;;
 }
@@ -376,7 +377,7 @@ h6{
     font-size: 40px;
 }
 
-.card-img-top{
+.cardsContainer .card-img-top{
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
 }
@@ -648,7 +649,7 @@ h3{
 
 }
 
-img.card-img-top{
+.readCards img.card-img-top{
     display:flex;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
