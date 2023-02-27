@@ -584,6 +584,30 @@ h3{
     padding: 50px;
 }
 
+
+.numberDropdown button{
+    width:100px;
+    background:#D9D9D9;
+    color: black;
+}
+
+.numberDropdown .dropdown-menu{
+    width: 100px !important;
+}
+
+.numberDropdown a{
+    width: 100px !important;
+    margin-right:0px;
+    
+}
+
+.numberDropdownContainer{
+    display:flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
 /*END CART CSS */
 
 /*START BILLING CSS */
