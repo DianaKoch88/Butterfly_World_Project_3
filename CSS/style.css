@@ -759,7 +759,7 @@ h1.thankYou{
 
 /* MEDIA QUEARY*/
 
-@media only screen and (min-width: 576px){
+@media only screen and (min-width: 600px){
     .container{
         display: column;
     }
