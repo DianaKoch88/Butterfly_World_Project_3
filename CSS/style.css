@@ -722,9 +722,15 @@ h5{
 }
 
 .suggestedReads{
+    
     background-color: white;
     margin: 0;
 }
+
+.suggestedReads h3{
+    margin-top: 50px;
+}
+
 
 .readCards{
     margin: 0;
